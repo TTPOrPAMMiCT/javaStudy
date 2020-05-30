@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0e7cdf7-f44e-4c6a-a374-b5b53d6e8da4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1c4PXY0rMpugPvlBubxAJLyk2k5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\georg\Documents\javaStudy\HTML\3" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0e7cdf7-f44e-4c6a-a374-b5b53d6e8da4" name="Default Changelist" comment="" />
+      <created>1589784932815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589784932815</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="280" y="4" key="#Project_Structure" timestamp="1589784949709">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1589784949709" />
+    <state x="506" y="171" key="FileChooserDialogImpl" timestamp="1589832034881">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="506" y="171" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1589832034881" />
+    <state x="182" y="113" key="new project wizard" timestamp="1589788504439">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="113" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1589788504439" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1589786232147">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1589786232147" />
+  </component>
+</project>
