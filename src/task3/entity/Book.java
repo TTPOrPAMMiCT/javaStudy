@@ -30,6 +30,7 @@ public class Book {
     public void setAmountList(int amountList) {
         this.amountList = amountList;
     }
+
     @Override
     public String toString() {
         return "Book{ " + "name = " + name +
