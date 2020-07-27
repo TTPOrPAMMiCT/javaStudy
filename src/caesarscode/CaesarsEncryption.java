@@ -3,13 +3,15 @@ package caesarscode;
 
 import java.util.Scanner;
 
-public class Code {
+public class CaesarsEncryption {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
         char[] lineCharacters = new char[string.length()];
         string.getChars(0, string.length(), lineCharacters, 0);
 
+        int alpabetSize = 33;
+        int alpabetIdEnd = 32;
         char[] uppercaseChars = {
                 'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й',
                 'К', 'Л', 'М', 'Н', 'О', 'П', 'Р', 'С', 'Т', 'У', 'Ф',
@@ -28,57 +30,56 @@ public class Code {
 
             if (Character.isUpperCase(lineCharacters[i])) {
 
-                int number = 0;
                 int seachId = 0;
-                while (number != 1) {
+                while (true) {
 
-                    if (seachId > 32) {
+                    if (seachId > alpabetIdEnd) {
                         break;
                     }
 
                     if (check == uppercaseChars[seachId]) {
                         int id = seachId;
 
-                        if (id + countOfCharacter > 32) {
-                            id = (id + countOfCharacter) % 32;
+                        if (id + countOfCharacter > alpabetSize) {
+                            id = (id + countOfCharacter) % alpabetSize;
                             lineCharacters[i] = lowercaseChars[id];
                         } else {
                             lineCharacters[i] = lowercaseChars[id + countOfCharacter];
                         }
 
                         lineCharacters[i] = uppercaseChars[id + countOfCharacter];
-                        number = 1;
+
+                        break;
 
                     } else {
                         seachId++;
-                        number = 0;
+
                     }
                 }
 
             } else {
-                int number = 0;
-                int seachId = 0;
-                while (number != 1) {
 
-                    if (seachId > 32) {
+                int seachId = 0;
+                while (true) {
+
+                    if (seachId > alpabetIdEnd) {
                         break;
                     }
 
                     if (check == lowercaseChars[seachId]) {
                         int id = seachId;
 
-                        if (id + countOfCharacter > 32) {
-                            id = (id + countOfCharacter) % 32;
+                        if (id + countOfCharacter > alpabetSize) {
+                            id = (id + countOfCharacter) % alpabetSize;
                             lineCharacters[i] = lowercaseChars[id];
                         } else {
                             lineCharacters[i] = lowercaseChars[id + countOfCharacter];
                         }
 
-                        number = 1;
+                        break;
 
                     } else {
                         seachId++;
-                        number = 0;
                     }
                 }
             }
